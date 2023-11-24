@@ -46,6 +46,28 @@ main div:first-child{
     background-color: #B4D0E7;
 }
 
-main {
-    height: 10000px;
+.position {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.container {
+    display: flex;
+}
+
+.text {
+    flex-basis: 30%;
+}
+
+.image{
+    flex-basis: calc(70%);
+}
+
+#arrow {
+    display: block;
+    font-size: 30px;
+}
+
+.photos {
+    width: 100%;
 }
