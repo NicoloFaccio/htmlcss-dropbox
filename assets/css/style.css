@@ -132,3 +132,20 @@ div.item > p {
     margin: 0 auto;
     width: 80%;
 }
+
+div.business > h2 {
+    margin-top: 30px;
+}
+
+div.business > p {
+    margin-block: 30px;
+}
+
+div.business > hr {
+    color: #EBEBEC;
+    width: 30%; 
+}
+
+.fa-check {
+    color: #0061FF;
+}
