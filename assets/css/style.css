@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid lime; */
+    border: 1px solid lime;
 }
 
 html {
@@ -138,6 +138,10 @@ div.item > p {
     color: gray;
 }
 
+.contatcs {
+    width: 100%;
+}
+
 div.business > h2 {
     margin-top: 30px;
 }
@@ -153,4 +157,18 @@ div.business > hr {
 
 .fa-check {
     color: #0061FF;
+}
+
+.enterprise {
+    border: 1px solid #EBEBEC;  
+    margin-top: 30px;
+}
+
+div.enterprise > p {
+    text-align: center;
+    border: 1px solid #EBEBEC;
+}
+
+.call-us {
+    display: flex;
 }
