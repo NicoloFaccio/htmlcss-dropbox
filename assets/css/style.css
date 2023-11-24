@@ -17,6 +17,7 @@ button {
 header {
     position: fixed;
     width: 100%;
+    z-index: 2;
     height: 5vh;
     background-color: white;
 }
@@ -131,6 +132,10 @@ div.item > p {
 .business {
     margin: 0 auto;
     width: 80%;
+}
+
+.duration {
+    color: gray;
 }
 
 div.business > h2 {
