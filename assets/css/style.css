@@ -79,6 +79,7 @@ div.text > p {
 #arrow {
     display: block;
     font-size: 30px;
+    color: black;
 }
 
 .image{
@@ -112,7 +113,7 @@ label {
     padding-right: 30px;
 }
 
-.container-2{
+#container-2{
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -171,4 +172,18 @@ div.enterprise > p {
 
 .call-us {
     display: flex;
+}
+
+div.call-us > div:first-child {
+    flex-basis: 75%;
+    margin-top: 30px;
+}
+
+div.call-us > div:last-child {
+    flex-basis: 25%;
+    margin-top: 30px;
+}
+
+div.call-us > div > p {
+    margin-block: 30px;
 }
