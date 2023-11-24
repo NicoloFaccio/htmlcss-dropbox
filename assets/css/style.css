@@ -91,3 +91,22 @@ div.text > p {
     top: 45px;
     right: 0;
 }
+
+.space {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.scheme {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+input {
+    accent-color: #0061FF;
+    padding: 10px;
+}
+
+label {
+    padding-right: 30px;
+}
