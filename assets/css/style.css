@@ -90,8 +90,11 @@ div.text > p {
     position: relative;
 }
 
-.photos {
-    width: 100%;  
+.pictures {
+   width: 100%; 
+}
+
+.photos {  
     position: absolute;
     top: 30px;
     right: 0;
