@@ -68,7 +68,7 @@ div.position > h1 {
     display: flex; 
 }
 
-.text {
+.basis {
     flex-basis: 30%;
 }
 
@@ -82,8 +82,11 @@ div.text > p {
     color: black;
 }
 
-.image{
+.basis-2 {
     flex-basis: 70%;
+}
+
+.image{
     position: relative;
 }
 
