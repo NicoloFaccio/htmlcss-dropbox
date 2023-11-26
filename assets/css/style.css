@@ -76,7 +76,7 @@ div.text > p {
     padding-block: 20px;
 }
 
-#arrow {
+#sign {
     display: block;
     font-size: 30px;
     color: black;
@@ -119,7 +119,7 @@ label {
     padding-right: 30px;
 }
 
-#container-2{
+.columns {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -128,10 +128,13 @@ label {
 
 .item {
     flex-basis: calc( (100% / 3 ) - (30px / 3) );
+}
+
+.border {
     border: 1px solid #EBEBEC;
 }
 
-div.item > p {
+div.border > p {
     text-align: center;
     border: 1px solid #EBEBEC;   
 }
@@ -151,10 +154,6 @@ div.item > p {
 
 div.business > h2 {
     margin-top: 30px;
-}
-
-div.business > p {
-    margin-block: 30px;
 }
 
 div.business > hr {
@@ -190,6 +189,16 @@ div.call-us > div:last-child {
     margin-top: 30px;
 }
 
-div.call-us > div > p {
-    margin-block: 30px;
+.gray {
+    border: 1px solid #757575;
+    color: #757575;
+    padding: 5px 10px;
+}
+
+.colleague {
+    margin-block: 80px;
+}
+
+.associate {
+    margin-left: 20px;
 }
