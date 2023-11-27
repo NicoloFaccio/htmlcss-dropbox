@@ -210,3 +210,31 @@ div.call-us > div:last-child {
 .associate {
     margin-left: 20px;
 }
+
+.teams {
+    flex-basis: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logos {
+    flex-basis: calc(100% / 2);
+}
+
+.squares {
+    width: 50%;
+    height: 50%;
+}
+
+#line {
+    color: rgba(208, 208, 211, 1);
+    width: 40%;
+}
+
+.why {
+    margin-block: 50px;
+}
+
+.when {
+    width: 30%;
+}
