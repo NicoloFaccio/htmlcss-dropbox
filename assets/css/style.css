@@ -63,6 +63,7 @@ header nav ul {
 
 div.position > h1 {    
     padding-top: 30px; 
+    font-size: 70px;
 }
 
 .container {
@@ -109,6 +110,7 @@ div.text > p {
 .scheme {
     margin-top: 80px;
     margin-bottom: 50px;
+    font-size: 35px;
 }
 
 input {
@@ -128,7 +130,7 @@ label {
 }
 
 .columns .item {
-    flex-basis: calc( (100% / 3 ) - (30px / 3));
+    flex-basis: calc( (100% / 3 ) - (60px / 3));
 }
 
 .border {
@@ -153,8 +155,9 @@ div.border > p {
     width: 100%;
 }
 
-div.business > h2 {
+div.business > h3 {
     margin-top: 30px;
+    font-size: 25px;
 }
 
 div.business > hr {
