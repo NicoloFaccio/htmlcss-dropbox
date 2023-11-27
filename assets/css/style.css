@@ -325,3 +325,32 @@ div.container-2 > a {
 .chevron {
     padding-left: 90px;
 }
+
+footer {
+    background-color: black;
+    margin-top: 80px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div ul li {
+    list-style-type: none;
+}
+
+footer div ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer div ul li:first-child {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+footer div ul li {
+    padding-block: 10px;
+}
