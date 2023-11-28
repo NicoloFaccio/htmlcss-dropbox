@@ -326,8 +326,12 @@ div.container-2 > a {
     padding-block: 20px;
 }
 
-.questions:hover {
+.LOREM {
+    display: none;
+}
 
+.why:hover + .LOREM {
+    display: block;
 }
 
 .chevron {
