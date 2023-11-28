@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid lime;
+    /* border: 1px solid lime; */
 }
 
 html {
@@ -251,6 +251,10 @@ div.call-us > div:last-child {
     justify-content: center;
 }
 
+div.location > img.squares {
+    filter: invert(1);
+}
+
 .squares {
     width: 60%;
 }
@@ -315,7 +319,11 @@ div.container-2 > a {
 
 .questions {
     padding-block: 20px;
-    border-top: 2px solid black;
+    border-block: 1px solid black;
+}
+
+.questions-center {
+    padding-block: 20px;
 }
 
 .questions:hover {
