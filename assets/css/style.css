@@ -315,6 +315,7 @@ div.container-2 > a {
     color: black;
     background-color: white;
     padding: 5px 10px;
+    text-decoration: none;
 }
 
 .questions {
@@ -361,6 +362,11 @@ footer {
     justify-content: space-between;
 }
 
+.list {
+    margin: 0 auto;
+    width: 70%;
+}
+
 footer div ul li {
     list-style-type: none;
 }
@@ -371,11 +377,25 @@ footer div ul li a{
 }
 
 footer div ul li:first-child {
-    padding-top: 40px;
+    padding-top: 90px;
     padding-bottom: 20px;
     font-size: 25px;
 }
 
 footer div ul li {
     padding-block: 10px;
+}
+
+.language {
+    margin-top: 70px;
+}
+
+.line-2 {
+    color: rgba(253, 253, 253, 1);
+    width: 10%;
+}
+
+.italian {
+    color: rgba(153, 153, 153, 1);
+    padding-block: 40px;
 }
