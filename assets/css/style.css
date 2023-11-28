@@ -318,20 +318,33 @@ div.container-2 > a {
 }
 
 .questions {
-    padding-block: 20px;
+    padding-block: 30px;
     border-block: 1px solid black;
 }
 
 .questions-center {
-    padding-block: 20px;
+    padding-block: 30px;
 }
 
 .LOREM {
     display: none;
 }
 
+.chevron-up {
+    display: none;
+}
+
 .why:hover + .LOREM {
     display: block;
+    padding-top: 5px;
+}
+
+.why:hover > .chevron {
+    display: none;
+}
+
+.why:hover > .chevron-up {
+    display: inline-block;
 }
 
 .chevron {
